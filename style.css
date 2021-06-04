@@ -1,0 +1,159 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        font-family: Lato, sans-serif;
+                    }
+                    
+                    .header {
+                        height: 74px;
+                        background: #222222;
+                        padding: 18px 20px;
+                        box-sizing: border-box;
+                    }
+                    
+                    .header .container {
+                        display: flex;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                    
+                    .search_icon {
+                        margin-left: 40px;
+                    }
+                    
+                    .bars_icon {
+                        margin-right: 33px;
+                    }
+                    
+                    .user_icon {
+                        margin-right: 33px;
+                    }
+                    
+                    .cart_icon_container {
+                        position: relative;
+                    }
+                    
+                    .cart_icon_container span {
+                        display: inline-block;
+                        width: 19px;
+                        height: 19px;
+                        color: white;
+                        background: #f16d7f;
+                        border-radius: 50%;
+                        position: absolute;
+                        text-align: center;
+                        right: -8px;
+                        top: -18px;
+                        font-family: Lato, sans-serif;
+                        font-size: 12px;
+                        line-height: 19px;
+                    }
+                    
+                    .brand_container {
+                        background-color: #F1E4E6;
+                        min-height: 363px;
+                        display: flex;
+                    }
+                    
+                    .brand_left img {
+                        display: block;
+                    }
+                    
+                    .brand_right {
+                        display: block;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: #222222;
+                    }
+                    
+                    .brand_heading_container div:first-child {
+                        font-weight: bold;
+                        font-size: 48px;
+                        line-height: 58px;
+                    }
+                    
+                    .brand_heading_container div:last-child {
+                        font-size: 32px;
+                        line-height: 38px;
+                        font-weight: 700;
+                        margin-top: 5px;
+                    }
+                    
+                    .brand_heading_container span {
+                        color: #F16D7F;
+                    }
+                    
+                    .brand_heading_container {
+                        border-left: 12px solid #F16D7F;
+                        padding-left: 15px;
+                    }
+                    
+                    .sale_top {
+                        display: flex;
+                        margin-top: 65px;
+                        margin-bottom: 30px;
+                        justify-content: center;
+                        box-sizing: border-box;
+                    }
+                    
+                    .for_women {
+                        margin-right: 30px;
+                        position: relative;
+                    }
+                    
+                    .for_women_text {
+                        position: absolute;
+                        top: 100px;
+                        right: 100px;
+                    }
+                    
+                    .for_women_text div:first-child {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        position: inherit;
+                        left: 52px;
+                    }
+                    
+                    .for_women_text div:last-child {
+                        font-weight: 700;
+                        font-size: 24px;
+                        Line-height: 28px;
+                        color: #F16D7F;
+                        padding-top: 19px;
+                        padding-left: 15px;
+                        padding-right: px;
+                    }
+                    
+                    .for_men {
+                        margin-right: 30px;
+                    }
+                    
+                    .sale_bottom {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .featured_heading,
+                    .featured_text {
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    .featured_heading {
+                        margin-top: 95px;
+                        margin-bottom: 5px;
+                        font-size: 30px;
+                        line-height: 36px;
+                        color: #222222;
+                    }
+                    
+                    .featured_text {
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #9F9F9F;
+                        padding-bottom: 48px;
+                    }
