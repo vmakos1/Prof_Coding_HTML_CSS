@@ -125,11 +125,61 @@
                         color: #F16D7F;
                         padding-top: 19px;
                         padding-left: 15px;
-                        padding-right: px;
                     }
                     
                     .for_men {
                         margin-right: 30px;
+                        position: relative;
+                    }
+                    
+                    .for_men_text {
+                        position: absolute;
+                        top: 101px;
+                        left: 125px;
+                    }
+                    
+                    .for_men_text div:first-child {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        position: inherit;
+                        left: 12px;
+                    }
+                    
+                    .for_men_text div:last-child {
+                        font-weight: 700;
+                        font-size: 24px;
+                        Line-height: 28px;
+                        color: #F16D7F;
+                        padding-top: 19px;
+                    }
+                    
+                    .for_kids {
+                        position: relative;
+                    }
+                    
+                    .for_kids_text {
+                        position: absolute;
+                        top: 100px;
+                        left: 125px;
+                    }
+                    
+                    .for_kids_text div:first-child {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 19px;
+                        color: #FFFFFF;
+                        position: inherit;
+                        left: 12px;
+                    }
+                    
+                    .for_kids_text div:last-child {
+                        font-weight: 700;
+                        font-size: 24px;
+                        Line-height: 28px;
+                        color: #F16D7F;
+                        padding-top: 19px;
                     }
                     
                     .sale_bottom {
