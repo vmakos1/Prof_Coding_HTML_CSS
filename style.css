@@ -428,7 +428,7 @@
     }
     
     .subscribe {
-        background-image: url(img/photo-subscribe.jpg);
+        background-image: url(img/photo\ subscribe.jpg);
         padding-top: 100px;
         padding-bottom: 140px;
         padding-left: 200px;
